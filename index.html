@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<img id="flower" src="before.jpg">
+	<script type="text/javascript">
+		//토글 왔다갔다
+		//boolean true/false;
+
+		var state = false;
+
+		flower.onclick = function(){
+			if(!state){
+				flower.src = "after.jpg";
+				state = true;
+				
+
+			}else{
+				flower.src = "before.jpg";
+				state = false;
+				
+			}
+			
+		}
+	</script>
+</body>
+</html>
